@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 import { NavLink } from 'react-router-dom';
 import useFirebase from '../../Hooks/useFirebase';
 import useAuth from '../../Hooks/useAuth';
@@ -10,10 +11,10 @@ const Header = () => {
     return (
         <div className='simple-navbar'>
 
-            <NavLink to='/home'> Home </NavLink>
+            <NavLink className='navElement' to='/home'> Home </NavLink>
             {user.email ?
-                <NavLink onClick={signOutAll} to='/login'  > Logout </NavLink> :
-                <NavLink to='/login'>Login</NavLink>
+                <NavLink className='navElement' onClick={signOutAll} to='/login'> Logout </NavLink> :
+                <NavLink className='navElement' to='/login'>Login</NavLink>
             }
 
         </div>

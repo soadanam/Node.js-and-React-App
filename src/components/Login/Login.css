@@ -1,0 +1,24 @@
+.googleLogin {
+    color: rgb(255, 255, 255);
+    background-color: rgb(158, 220, 82);
+    padding: 7px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(237, 22, 22), orange, rgb(226, 226, 27), green, rgb(91, 91, 252), indigo, violet);
+
+    border: 1px solid rgb(144, 144, 245);
+    font-weight: bold;
+}
+
+.register-form {
+    background-color: rgb(255, 253, 253);
+    display: grid;
+    /* max-width: 50%; */
+    justify-content: center;
+}
+
+.registration-input {
+    margin-bottom: 5px;
+    padding: 4px;
+    /* border-radius: 5px; */
+}

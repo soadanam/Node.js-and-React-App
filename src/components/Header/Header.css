@@ -1,0 +1,10 @@
+.simple-navbar {
+    background-color: rgb(252, 246, 246);
+    height: 35px;
+}
+
+.navElement {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

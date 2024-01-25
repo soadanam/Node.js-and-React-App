@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Login.css';
 import { useLocation, useNavigate } from 'react-router-dom';
 import useAuth from './../../Hooks/useAuth';
 import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
@@ -67,7 +68,7 @@ const Login = () => {
         <div>
             <h4>Login with Google / email & password</h4>
 
-            <button onClick={handleGoogleSignInAndRedirect} >GOOGLE</button>
+            <button className='googleLogin' onClick={handleGoogleSignInAndRedirect} >GOOGLE</button>
             <h4>Or</h4>
 
             {/* react hook form  */}
