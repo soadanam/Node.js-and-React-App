@@ -1,7 +1,24 @@
+.home-body {
+    background-image: url('../../../images/home-bg.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    /* height: 100vw; */
+    background-position: center;
+    /* background-size: cover; */
+}
+
+
 .homeHeader {
-    color: rgb(90, 88, 88);
+    /* color: rgb(90, 88, 88); */
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+.protected-text {
+    color: white;
 }
 
 .toLoginNavigateLink {
     font-style: italic;
+    color: rgb(253, 90, 180);
 }
